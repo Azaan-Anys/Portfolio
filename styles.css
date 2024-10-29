@@ -1,0 +1,156 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+padding: 0%;
+margin: 0%;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.landing {
+    background-image: url(img/Landing\ banner.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.landing .text {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.services {
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.services .text {
+    width: 75%;
+}
+.services .text .accordion {
+    --bs-accordion-btn-bg: white;
+    --bs-accordion-active-bg: black;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+/*.services .text ul {
+    list-style: circle;
+    text-align: left;
+}*/
+.myWork {
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+}
+.myWork .text .images img {
+    width: 15%;
+    margin: 2%;
+    border-radius: 5%;
+    transition-duration: 0.9s;
+}
+.myWork .text .images img:hover {
+    width: 16%;
+}
+.text {
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle; 
+    border-radius: 5px; 
+}
+.contact {
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5%;
+    margin: 5%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+/* services.html 
+
+.stuff {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stuff .morestuff {
+    margin: 5%;
+    padding: 3%;
+    height: fit-content;
+    text-align: justify;
+    width: 100%;
+} 
+*/
+
+/* myWork.html */
+
+.stuff {
+    padding: 5%;
+}
+.stuff img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+/*.stuff .morestuff .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+}
+.stuff .morestuff .gallery img {
+    width: 50%;
+    border-radius: 5%;
+    margin: 2%;
+}*/
+
+/* Service & myWork */
+
+.back {
+    margin: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+    transition-duration: 0.7s;
+}
+.back a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
